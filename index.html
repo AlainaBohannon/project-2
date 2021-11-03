@@ -8,10 +8,124 @@
   </head>
   <body>
 
-    <h1>
 
       <img id="logo" src="WebLogo.jpeg" alt="logo" title="logo">
 
-    </h1>
+
+    <!-- Navigation with hamburger menu when mobile -->
+    <div
+     class="topnav" id="myTopnav">
+        <a href="bikes.html">Bikes</a>
+        <a href="parts.html">Parts</a>
+        <a href="about.html">About Us</a>
+        <a href="socials.html">Socials</a>
+        <!-- Dont change the link below -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div> <!--topnav-->
+
+    <!-- You can remove this hero if you want -->
+    <div class="hero">
+
+    </div>
+    <!-- Image came from here: https://pixabay.com/photos/hair-lipstick-girl-fashion-model-2537564/-->
+
+    <!-- <h2>The image above is our "hero"</h2>
+    <h3><a href="https://www.w3schools.com/howto/howto_css_hero_image.asp">Find out more about heros.</a></h3> -->
+    <div id="wrapper">
+      <div class="row">
+          <div class="col">
+              <h2>Red Rivers Promise</h2>
+              <p>We promise to give you the best quality service with the best quality products.</p>
+          </div><!--column-->
+          <h2 class="store-show__subheading">Store Hours</h2>
+          <table class="store-show__table">
+
+          <tbody>
+
+          <tr class="store-show__hours-today">
+            <td>Tuesday</td>
+            <td colspan="2" class="store-show__hours-text">
+
+10:00 AM - 7:00 PM
+
+            </td>
+          </tr>
+
+          <tr>
+            <td>Monday</td>
+            <td colspan="2" class="store-show__hours-text">
+
+10:00 AM - 7:00 PM
+
+            </td>
+          </tr><tr>
+            <td>Wednesday</td>
+            <td colspan="2" class="store-show__hours-text">
+
+10:00 AM - 7:00 PM
+
+            </td>
+          </tr>
+
+          <tr>
+            <td>Thursday</td>
+            <td colspan="2" class="store-show__hours-text">
+
+10:00 AM - 7:00 PM
+
+            </td>
+          </tr>
+
+          <tr>
+            <td>Friday</td>
+            <td colspan="2" class="store-show__hours-text">
+
+10:00 AM - 7:00 PM
+
+            </td>
+          </tr>
+
+          <tr>
+            <td>Saturday</td>
+            <td colspan="2" class="store-show__hours-text">
+
+10:00 AM - 6:00 PM
+
+            </td>
+          </tr>
+
+          <tr>
+            <td>Sunday</td>
+            <td colspan="2" class="store-show__hours-text">
+
+10:00 AM - 6:00 PM
+
+            </td>
+          </tr>
+
+      </tbody></table>
+
+          </div><!--column-->
+      </div><!--row-->
+    </div><!--/wrapper-->
+
+    <footer>
+        <h4>&copy; 2021 Red River Cyclery | <a href="#">Back to top</a></h4>
+    </footer>
+
+    <!--  Don't Touch Javascript below
+    This needs to be on every HTML document  -->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
   </body>
 </html>
