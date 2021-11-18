@@ -67,27 +67,31 @@ body{
 img{
     max-width:100%;
 }
-.topnav a, h2, h3, p, footer{
+.topnav a, h2, h3, footer{
   font-family: "Bodoni Book", serif;
   letter-spacing: 1.2px;
   text-align: center;
   color: lightgrey;
 }
+
 h1{
     font-family: "Bodoni Book", serif;
     text-align: center;
     color: lightgrey;
+    text-decoration: none;
+}
+a{
+  text-decoration: none;
 }
 
 h3{
-  font-family: 'Ikaros-Regular', serif;
   margin: 20px auto;
   width: 90%;
   text-align: center;
 }
 p{
-  font-family: "Bodoni Book", serif;
   color: lightgrey;
+  line-height: 1.5em;
 }
 #logo {
   /* ------ Max width to keep logo image from being larger than intended ------ */
@@ -144,6 +148,40 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url("
   color: white;
   font-size: 1.5em;
 }
+
+.about-hero{
+
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url("work.jpeg");
+
+  /* Set a specific height
+  50vh is 50% of the viewport height */
+  height: 50vh;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.parts-hero {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url("parts2.jpeg");
+
+  /* Set a specific height
+  50vh is 50% of the viewport height */
+  height: 50vh;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+
 
 /* --------
 END HERO STYLES
