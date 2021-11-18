@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+
+    <a
+     href="index.html">
+     <img id="logo" src="WebLogo.jpeg" alt="logo" title="logo">
+    </a>
+
+    <!-- Navigation with hamburger menu when mobile -->
+    <div
+     class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="bikes.html">Bikes</a>
+        <a href="parts.html">Parts</a>
+        <a href="about.html">About Us</a>
+        <a href="socials.html">Socials</a>
+        <!-- Dont change the link below -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div> <!--topnav-->
+
+    <!-- You can remove this hero if you want -->
+
+    <div
+     href="index.html">
+     <img id="parts" src="parts.jpeg" alt="logo" title="logo">
+
+    </div>
+
+    <!-- <h2>The image above is our "hero"</h2>
+    <h3><a href="https://www.w3schools.com/howto/howto_css_hero_image.asp">Find out more about heros.</a></h3> -->
+    <div id="wrapper">
+      <div class="row">
+          <div class="col">
+
+          </div><!--column-->
+
+          <div class="col">
+            <h2>Red River Parts</h2>
+            <p>Whether you need repairs or maintenance, or you're looking to customize your motorcycle, Red River Cyclery is proud to carry a wide selection of parts and accessories so you can maintain your vehicle and make it your own. If we don't have it in stock, we're happy to order it for you.</p>
+
+          </div><!--column-->
+      </div><!--row-->
+    </div><!--/wrapper-->
+
+    <footer>
+        <h4>&copy; 2021 Red River Cyclery | <a href="#">Back to top</a></h4>
+    </footer>
+
+    <!--  Don't Touch Javascript below
+    This needs to be on every HTML document  -->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>
