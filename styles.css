@@ -179,7 +179,20 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url("
   background-size: cover;
   position: relative;
 }
+.bikes-hero {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url("bikes.jpeg");
 
+  /* Set a specific height
+  50vh is 50% of the viewport height */
+  height: 50vh;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
 
 
